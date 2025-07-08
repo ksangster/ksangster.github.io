@@ -1,0 +1,88 @@
+---
+title: "Setting on the Path of Deep Learning with fastai, lesson 1"
+description:
+    first foray into deep learning using fastai online course and book
+date: 2025-07-02
+# citation: 
+#     url: https://ksangster.github.io/posts/2025-07-02-deep-learning-fastai-1/
+categories: [deep-learning, fastai, lessons, python, kaggle]
+draft: true
+---
+
+::: center-text
+Like many who have come before , I'm starting on the path of deep learning with [fastai] and their brilliant freely available [course] and companion book. One of their first recommendations, other than learning how to learn, is to start a blog. Why? Because there's no learning like reflection and teaching. Yes, it seems to run counter to the experience many of us had in school - focusing on rote memorization and regurgitation.[^1]\
+
+The long and short of it: the best way to learn, is to do. [^2] So here we go.
+
+\
+Started with the lesson 1 notebook on [Kaggle], walked through the lesson, then copied it to build my own first classifier!\
+Now, let's just state up front: it's not very good. The intent was to build a classifier for various species of poisonous mushroom. The problem is, many of the them look alike; so much so that the model thought it had nearly 100% accuracy on exactly the wrong species. For example, when asks to classify a fool's funnel, the model thought it was almost exactly like the death cap. They are two different species; clearly more training or tuning is required.
+
+Initially, I used 3 different species, but it created more confusion for the model than desired. The current iteration uses only 2 species, and the model executed over 20 iterations or epochs. The results were far better this time around.\
+
+| **epoch** | **train_loss** | **valid_loss** | **error_rate** | **time** |
+|----------:|---------------:|---------------:|---------------:|---------:|
+|         0 |       0.318933 |       0.268419 |       0.101449 |    00:35 |
+|         1 |       0.236353 |       0.250364 |       0.072464 |    00:35 |
+|         2 |       0.180358 |       0.265974 |       0.086957 |    00:35 |
+|         3 |       0.149265 |       0.309172 |       0.072464 |    00:35 |
+|         4 |       0.118095 |       0.332653 |       0.057971 |    00:35 |
+|         5 |       0.094017 |       0.361594 |       0.057971 |    00:34 |
+|         6 |       0.075535 |       0.383202 |       0.072464 |    00:35 |
+|         7 |       0.060396 |       0.364924 |       0.086957 |    00:35 |
+|         8 |       0.051182 |       0.367088 |       0.086957 |    00:35 |
+|         9 |       0.045632 |       0.347216 |       0.086957 |    00:46 |
+|        10 |       0.041189 |       0.267905 |       0.086957 |    00:36 |
+|        11 |       0.034534 |       0.226798 |       0.072464 |    00:35 |
+|        12 |       0.029563 |       0.230915 |       0.057971 |    00:35 |
+|        13 |       0.027720 |       0.257353 |       0.043478 |    00:35 |
+|        14 |       0.023939 |       0.278298 |       0.072464 |    00:36 |
+|        15 |       0.021712 |       0.277783 |       0.072464 |    00:34 |
+|        16 |       0.018345 |       0.273075 |       0.072464 |    00:34 |
+|        17 |       0.016007 |       0.267906 |       0.072464 |    00:35 |
+|        18 |       0.013814 |       0.263237 |       0.072464 |    00:34 |
+|        19 |       0.013254 |       0.266309 |       0.057971 |    00:35 |
+
+The training loss converges to just above 0, with the error_rate following suite. The valid_loss settles on 0.26, which indicates the model is a bit loss-y, so to speak.\
+
+The model maintains a 100% probability when identifying death cap mushrooms:
+
+::: {.column-margin}
+![](/posts/images/deathcap.jpg)
+:::
+
+```
+This is a: death cap.
+Probability it's a death cap: 1.0000
+```
+
+\
+Not so accurate when classifying fly agaric:\
+
+::: {.column-margin} 
+![](/posts/images/agaric.jpg)
+::: 
+
+```         
+This is a: fly agaric.
+Probability it's a fly agaric: 0.0031
+```
+
+The probability of accuracy is tiny, but still correct.\
+\
+At this point, it's unclear what steps to take to improve the result for fly agaric classification. It could be there aren't enough distinctions between the samples in the data set, rendering them too similar for the model to tell the difference. As this is the beginning, refining and training models and analysing output can only get better.\
+\
+Head on over to [Kaggle] to interact the fully-functional notebook.\
+\
+Thanks for reading. Onward and upward.
+:::
+
+[^1]: Lots to discuss, reveal explore on the topic of learning to learn. Start here: [Ted Talk] and here: [Coursera]
+
+[^2]: Personal reflections on learning, trying vs. doing \[\[INSERT LINK to BLOG\]\]
+
+  [fastai]: https://www.fast.ai/
+  [course]: https://course.fast.ai/
+  [Kaggle]: https://www.kaggle.com/code/ksangster/is-it-death-creating-a-model-from-your-own-data "Kaggle notebook for first fastai lesson"
+  [Ted Talk]: https://www.youtube.com/watch?v=O96fE1E-rf8
+  [Coursera]: https://www.coursera.org/learn/learning-how-to-learn

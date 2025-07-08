@@ -1,0 +1,77 @@
+---
+title: "On Learning Failure and Doing"
+description:
+    How humans learn; why we struggle; the mask of failure
+date: 2025-07-02
+# citation: 
+#     url: https://ksangster.github.io/posts/2025-07-02-on-learning-failure-doing/
+categories: [learning, failure, success, pyschology, thinking, mental state]
+draft: true
+
+format: 
+    html:
+        html-math-method: katex
+        css: styles.css
+    pdf:
+        documentclass: scrartcl
+        papersize: letter
+---
+
+::: center-text
+One of the big factors influencing the success (as of this writing only just begun), or at least the difference, in undertaking this project, is the reconsideration of what it means to learn. This is primarily in regards to how we were taught in school, at least here in the United States. Obtusively concerned with rote memorization and recital under pressure, it could never answer that most perennial of questions: "But, what am I going to use it FOR?!"\
+\
+Because the question is so prevalent, pervasive, it shouldn't be surprising to suggest: we've missed the point.
+
+A very brief and admittedly bias history on the education system as used in the US. It's based on the system of Prussian schooling, designed to get the maximum number of "students" through the system in the least amount of time, within tolerable 'standards'. This system worked well to train soldiers, or in general, to condition the 'student' to behave according to rules, and follow orders. Fast-forward to the Industrial Revolution.\
+\
+How convenient it would be to have a system of 'education' that supplied workers for the new factories? From an early age, train them to know their place, blindly follow orders, have near absolute respect for authority, and kill any possibility of questioning otherwise. Obviously using broad strokes here, but it's not hard to see how learning how to think, and how to think for one's self, was absent of the curriculum.
+
+From this perspective, success involves comporting one's self to the set standards and not deviating. The model has no tolerance for outliers, free-thinkers, rebels of any kind. Interesting side question: how did geniuses make it through intact?\
+\
+The above system is characterized by being told what to learn, when, and success is measured by whether or not the 'student' has an attention span long enough to hold the relevant data in mind until ordered to parrot it back. This isn't learning. It's training. It's conditioning.\
+\
+This is antithetical to the kind of learning that grows and evolves human beings into greater and grander versions of themselves, learning that contributes to success in all areas of life, and propels one forward in the spirit and experience of excellence.\
+\
+It turns out, through various studies, that we humans learn best through doing, through challenge. Memorization is not learning. Being 'good at taking tests' (whatever that means) is not learning.\
+Watching untold number of tutorials on YouTube is not learning.\
+\
+We have TO DO. We are living, breathing verbs. Something drilled into school-goers from the early beginning is the notion of failure and the comparative standards of success. <mark>Let's be blunt: what is failure? What does it mean "to fail"? What is success? What does it mean "to succeed"?</mark></br>\
+Foregoing the dictionary, we might think that "to fail" equates to "not being able to", "not being good at", or some such noise. Or more insidiously, not doing / being like someone else. That's the worst. How many of us have been called a 'failure' because we didn't meet another's standard, because we couldn't 'do it like Billy'. At that point we were 'supposed' to learn to 'try harder', 'do better', 'pay more attention', 'work harder'. It's not far off to say none of that worked. Even worse, identity is now linked to failure: "I am a failure because...", "I have failed because...".\
+\
+All that is a sick, subtle trap, even more so if there's perfectionism driving behavior. Let's go back to the doing. How do you DO anything? You just DO IT, right? (no apologies, Nike. Don't sue me). There's no trying, just doing. In the doing is success. It may not look like much, it may be messy, awkward, and leave a mark, but it is most assuredly NOT failure. Why? Because you did it. You learned through the doing, the first-hand experience. Take the other hand now. The not-doing. Is that failure? Only in the sense that nothing happened, but learning still took place. Why? Life has a way of showing us the consequence of our action / non-action. It we pay attention to the consequence on non-action, we learn what happens in that case, and can then, hopefully, decide whether or not to take that road again.\
+\
+In both cases, learning takes place. So, what is failure? What exactly are we failing AT? It isn't doing, and it isn't non-doing. What if it's something unseen in the psyche, an energy, or pernicious thought, or, just-maybe-what-if-oh-no, it's basic fear? If that is so, what are we afraid of?\
+
+<h4>The illusion of success and the beauty of good enough</h4>
+
+What do you want to do?\
+How will you know you've succeeded?\
+What price are you willing to pay to be good at it?\
+\
+Invoking Mark Manson[^1] for a moment: what do you give a fuck about, and how much? What kind of shit sandwich will you choose, in order to live the life you desire?\
+\
+And from the wonderful teachings of Bob Proctor, a refreshing definition of success: "the movement (the doing, the inspired action) that takes you from chaos to order"[^2]\
+\
+We in the West have been brainwashed regarding success, overtly and covertly manipulated, programmed, conditioned to want certain things, to believe certain things, to think of success a certain way. The message: "You MUST be this way, have these things, in order for society to acknowledge you as having achieved success". They left out: Our Standard Of.\
+They also left out what the journey looks like, what's entailed, the price one pays for taking it. We are shown, in popular media, people at the so-called "top of their game". We never how they got there, we never see what it took, we never see the struggle, the suffering, the heartbreak, the blood, sweat, tears and pain. We never see the price paid. We don't know the shit sandwich these people chose.\
+\
+The image of success we see around us is not the image of success FOR US as people, individuals, with our own dreams, goals, and desires. What moves us closer to order in our lives? How can we get 1% better today, that will tomorrow easier?[^3] Whatever *that* is, it is the definition of success for you, right now. Let it change. Because it will. But be prepared, or at least warned. You will be tested. You will meet set-backs, challenges, obstacles. THESE ARE NOT FAILURES!! This is the price you pay for going after what you desire.
+
+You will never be Michael Jordan, BUT we can exercise the same discipline, determination, and endurance.\
+You will never be Oprah Winfrey, BUT we can exercise the same resiliency, vision, drive and compassion.\
+<h4>But,... this relates to learning, HOW?</h4>
+Learning is challenging, it is a struggle. And it should be. We grow through the struggle, we grow through challenge. However, it's not something we're used to, the truth of the process isn't revealed to us. As stated above, we've been conditioned to believe that learning is simple and easy and we're all so natural at it. Funny that, because we come out of the womb built to learn, to take in, to absorb. We are tiny sponges for the world. We learn through direct experience, by doing, by interacting, using all five senses (some say there are more; a subject for a another article). Our natural innate curiosity propels into direct intimate relationship with everything the world has to offer our voracious minds.\
+Innately, naturally, we know how to learn. In fact, we don't even have to think about it.\
+\
+Moreover, it is the very act of thinking - that ruminating, incessant voice, droning on and on, with guilt, doubt, fear, and shame, that prevents natural learning from occurring. This is the very reason learning is challenging: we seem to be fighting ourselves, our natural abilities to understand, comprehend and apply.
+
+\
+\
+:::
+
+[^1]: "The Subtle Art of Not Giving a F\*ck" by Mark Manson <https://markmanson.net/>
+
+[^2]: While searching for the quote, came across this article, a collection of quotes on success. Pay attention to the last 3\
+    <https://medium.com/thrive-global/25-definitions-of-success-from-very-accomplished-people-d3c43955e40e>
+
+[^3]: Thanks James Clear. Read "Atomic Habits" <https://jamesclear.com/>

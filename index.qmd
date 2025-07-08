@@ -1,0 +1,34 @@
+---
+title: "Kyle Sangster"
+image: "images/avatar.jpg"
+about:
+  template: trestles
+  links: 
+    - icon: linkedin
+      text: LinkenIn
+      url: https://linkedin.com/ksangster
+    # - text: 🦋 Bluesky
+    #   url: https://bskyu.app/profile/ksangster.com
+    - icon: github
+      text: github
+      url: https://github.com/ksangster
+    - text: Email
+      url: "mailto:ksngstr+site@gmail.com"
+    - text: Blog
+      url: "posts.html"
+    - text: Resume
+      url: resume.pdf
+comments: false
+
+
+
+---
+::: {.column-page}
+
+## Bio
+Investor and trader, philosophical rascal, co-owner and co-founder of [TradingMunks](https://tradingmunks.com), an investment and financial technology enterprise. By training and profession, I'm either a computer scientist or software developer. Outside work, I'm an avid reader, travel junkie, and practitioner of the Eastern arts.
+
+On this site I keep a list of [projects](projects), [my resume](resume.pdf), and a [blog](posts) about intellectual, technical and curious pursuits.
+
+
+:::

@@ -1,0 +1,18 @@
+---
+title: "About"
+about:
+    template: jolla
+    image: profile.jpg
+    links: 
+      - icon: twitter
+        text: twitter
+        href: https://x.com
+      - icon: github
+        text: github
+        href: https://github.com/ksangster
+      - icon: linkedin
+        text: LinkenIn
+        href: https://linkedin.com/ksangster
+---
+
+About this site

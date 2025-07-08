@@ -1,0 +1,34 @@
+project:
+  type: website
+  resources:
+    - resume.pdf
+
+website:
+  title: "Kyle Sangster"
+  navbar:
+    # left:
+    #   - href: index.qmd
+    #     text: Home
+    #   - about.qmd
+    #   - posts.qmd
+    right:
+      - text: "Home"
+        href: index.html
+      - text: "Projects"
+        href: projects
+      - text: "Blog"
+        href: posts.html
+      - icon: rss
+        href: posts.xml
+
+format:
+  html:
+    theme:
+      - spacelab
+      - cosmo
+      - brand
+    css: styles.css
+    toc: false
+
+
+
