@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nHello Blog-World\n\n\n\n\n\n\n\n\nJun 25, 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kyle Sangster",
+    "section": "",
+    "text": "Investor and trader, philosophical rascal, co-owner and co-founder of TradingMunks, an investment and financial technology enterprise. By training and profession, I’m either a computer scientist or software developer. Outside work, I’m an avid reader, travel junkie, and practitioner of the Eastern arts.\nOn this site I keep a list of projects, my resume, and a blog about intellectual, technical and curious pursuits."
+  },
+  {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "Kyle Sangster",
+    "section": "",
+    "text": "Investor and trader, philosophical rascal, co-owner and co-founder of TradingMunks, an investment and financial technology enterprise. By training and profession, I’m either a computer scientist or software developer. Outside work, I’m an avid reader, travel junkie, and practitioner of the Eastern arts.\nOn this site I keep a list of projects, my resume, and a blog about intellectual, technical and curious pursuits."
+  },
+  {
+    "objectID": "posts/hello-blog-world.html",
+    "href": "posts/hello-blog-world.html",
+    "title": "Hello Blog-World",
+    "section": "",
+    "text": "The oft-touted, much-celebrated, very-required “Hello World” post.\nOnward."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  }
+]
