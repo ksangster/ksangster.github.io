@@ -6,7 +6,7 @@ date: 2025-07-02
 # citation: 
 #     url: https://ksangster.github.io/posts/2025-07-02-deep-learning-fastai-1/
 categories: [deep-learning, fastai, lessons, python, kaggle]
-draft: true
+draft: false
 ---
 
 ::: center-text
@@ -79,10 +79,11 @@ Thanks for reading. Onward and upward.
 
 [^1]: Lots to discuss, reveal explore on the topic of learning to learn. Start here: [Ted Talk] and here: [Coursera]
 
-[^2]: Personal reflections on learning, trying vs. doing \[\[INSERT LINK to BLOG\]\]
+[^2]: [Personal reflections] on learning, trying vs. doing, success and failure
 
   [fastai]: https://www.fast.ai/
   [course]: https://course.fast.ai/
   [Kaggle]: https://www.kaggle.com/code/ksangster/is-it-death-creating-a-model-from-your-own-data "Kaggle notebook for first fastai lesson"
   [Ted Talk]: https://www.youtube.com/watch?v=O96fE1E-rf8
   [Coursera]: https://www.coursera.org/learn/learning-how-to-learn
+  [Personal reflections]: ../2025-07-02-on-learning-failure-doing/index.html
