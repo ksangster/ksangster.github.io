@@ -4,7 +4,7 @@
     "href": "posts.html",
     "title": "Blog",
     "section": "",
-    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nHello Blog-World\n\n\n\n\n\n\n\n\nJun 25, 2025\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nSetting on the Path of Deep Learning with fastai, lesson 1\n\n\n\ndeep-learning\n\nfastai\n\nlessons\n\npython\n\nkaggle\n\n\n\nfirst foray into deep learning using fastai online course and book\n\n\n\n\n\nJul 2, 2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -26,6 +26,20 @@
     "title": "Hello Blog-World",
     "section": "",
     "text": "The oft-touted, much-celebrated, very-required “Hello World” post.\nOnward."
+  },
+  {
+    "objectID": "posts/2025-07-02-deep-learning-fastai-1/index.html",
+    "href": "posts/2025-07-02-deep-learning-fastai-1/index.html",
+    "title": "Setting on the Path of Deep Learning with fastai, lesson 1",
+    "section": "",
+    "text": "Like many who have come before , I’m starting on the path of deep learning with fastai and their brilliant freely available course and companion book. One of their first recommendations, other than learning how to learn, is to start a blog. Why? Because there’s no learning like reflection and teaching. Yes, it seems to run counter to the experience many of us had in school - focusing on rote memorization and regurgitation.1\n\nThe long and short of it: the best way to learn, is to do. 2 So here we go.\n\nStarted with the lesson 1 notebook on Kaggle, walked through the lesson, then copied it to build my own first classifier!\nNow, let’s just state up front: it’s not very good. The intent was to build a classifier for various species of poisonous mushroom. The problem is, many of the them look alike; so much so that the model thought it had nearly 100% accuracy on exactly the wrong species. For example, when asks to classify a fool’s funnel, the model thought it was almost exactly like the death cap. They are two different species; clearly more training or tuning is required.\nInitially, I used 3 different species, but it created more confusion for the model than desired. The current iteration uses only 2 species, and the model executed over 20 iterations or epochs. The results were far better this time around.\n\n\n\n\n\n\n\n\n\n\n\nepoch\ntrain_loss\nvalid_loss\nerror_rate\ntime\n\n\n\n\n0\n0.318933\n0.268419\n0.101449\n00:35\n\n\n1\n0.236353\n0.250364\n0.072464\n00:35\n\n\n2\n0.180358\n0.265974\n0.086957\n00:35\n\n\n3\n0.149265\n0.309172\n0.072464\n00:35\n\n\n4\n0.118095\n0.332653\n0.057971\n00:35\n\n\n5\n0.094017\n0.361594\n0.057971\n00:34\n\n\n6\n0.075535\n0.383202\n0.072464\n00:35\n\n\n7\n0.060396\n0.364924\n0.086957\n00:35\n\n\n8\n0.051182\n0.367088\n0.086957\n00:35\n\n\n9\n0.045632\n0.347216\n0.086957\n00:46\n\n\n10\n0.041189\n0.267905\n0.086957\n00:36\n\n\n11\n0.034534\n0.226798\n0.072464\n00:35\n\n\n12\n0.029563\n0.230915\n0.057971\n00:35\n\n\n13\n0.027720\n0.257353\n0.043478\n00:35\n\n\n14\n0.023939\n0.278298\n0.072464\n00:36\n\n\n15\n0.021712\n0.277783\n0.072464\n00:34\n\n\n16\n0.018345\n0.273075\n0.072464\n00:34\n\n\n17\n0.016007\n0.267906\n0.072464\n00:35\n\n\n18\n0.013814\n0.263237\n0.072464\n00:34\n\n\n19\n0.013254\n0.266309\n0.057971\n00:35\n\n\n\nThe training loss converges to just above 0, with the error_rate following suite. The valid_loss settles on 0.26, which indicates the model is a bit loss-y, so to speak.\n\nThe model maintains a 100% probability when identifying death cap mushrooms:\n\n\n\nThis is a: death cap.\nProbability it's a death cap: 1.0000\n\nNot so accurate when classifying fly agaric:\n\n\n\n\nThis is a: fly agaric.\nProbability it's a fly agaric: 0.0031\nThe probability of accuracy is tiny, but still correct.\n\nAt this point, it’s unclear what steps to take to improve the result for fly agaric classification. It could be there aren’t enough distinctions between the samples in the data set, rendering them too similar for the model to tell the difference. As this is the beginning, refining and training models and analysing output can only get better.\n\nHead on over to Kaggle to interact the fully-functional notebook.\n\nThanks for reading. Onward and upward."
+  },
+  {
+    "objectID": "posts/2025-07-02-deep-learning-fastai-1/index.html#footnotes",
+    "href": "posts/2025-07-02-deep-learning-fastai-1/index.html#footnotes",
+    "title": "Setting on the Path of Deep Learning with fastai, lesson 1",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nLots to discuss, reveal explore on the topic of learning to learn. Start here: Ted Talk and here: Coursera↩︎\nPersonal reflections on learning, trying vs. doing, success and failure↩︎"
   },
   {
     "objectID": "about.html",
