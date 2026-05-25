@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ksangster.github.io/posts.html</loc>
-    <lastmod>2025-07-09T08:27:48.682Z</lastmod>
+    <loc>https://ksangster.github.io/quotes.html</loc>
+    <lastmod>2025-07-15T17:34:21.085Z</lastmod>
   </url>
   <url>
-    <loc>https://ksangster.github.io/index.html</loc>
-    <lastmod>2025-07-09T08:54:57.921Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ksangster.github.io/posts/hello-blog-world.html</loc>
-    <lastmod>2025-07-09T07:50:07.360Z</lastmod>
+    <loc>https://ksangster.github.io/about.html</loc>
+    <lastmod>2025-07-09T07:50:07.355Z</lastmod>
   </url>
   <url>
     <loc>https://ksangster.github.io/posts/2025-07-02-deep-learning-fastai-1/index.html</loc>
     <lastmod>2025-07-09T08:35:01.400Z</lastmod>
   </url>
   <url>
-    <loc>https://ksangster.github.io/about.html</loc>
-    <lastmod>2025-07-09T07:50:07.355Z</lastmod>
+    <loc>https://ksangster.github.io/posts/2026-05-24-preface/index.html</loc>
+    <lastmod>2026-05-25T05:20:17.317Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ksangster.github.io/posts/hello-blog-world.html</loc>
+    <lastmod>2025-07-09T07:50:07.360Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ksangster.github.io/index.html</loc>
+    <lastmod>2025-07-09T08:54:57.921Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ksangster.github.io/posts.html</loc>
+    <lastmod>2025-07-09T08:27:48.682Z</lastmod>
   </url>
 </urlset>
