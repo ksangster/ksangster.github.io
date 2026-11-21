@@ -28,7 +28,7 @@ comments: false
 ## Bio
 Investor and trader, philosophical rascal, co-owner and co-founder of [TradingMunks](https://tradingmunks.com), an investment and financial technology enterprise. By training and profession, I'm either a computer scientist or software developer. Outside work, I'm an avid reader, travel junkie, and practitioner of the Eastern arts.
 
-On this site I keep a list of [projects](projects), [my resume](resume.pdf), and a [blog](posts) about intellectual, technical and curious pursuits.
+On this site I keep a list of [projects](projects), [my resume](resume.pdf), and a [blog](posts.html) about intellectual, technical and curious pursuits.
 
 
 :::
