@@ -217,7 +217,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><strong>Where is the flag hidden?</strong> Embedded inside <code>picture3.bmp</code> using <code>steghide</code> and protected with a passphrase recovered from the network traffic.</li>
 </ol></li>
 </ul>
-<hr>
 </section>
 <section id="provided-artifacts-integrity-verification" class="level2">
 <h2 class="anchored" data-anchor-id="provided-artifacts-integrity-verification">2. Provided Artifacts &amp; Integrity Verification</h2>
@@ -245,7 +244,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tr>
 </tbody>
 </table>
-<hr>
 </section>
 <section id="environment-tooling" class="level2">
 <h2 class="anchored" data-anchor-id="environment-tooling">3. Environment &amp; Tooling</h2>
@@ -253,7 +251,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><strong>OS / Analysis VM:</strong> Kali Linux</li>
 <li><strong>Tools Used:</strong> <code>Wireshark</code>, <code>CyberChef</code>, <code>binwalk</code>, <code>strings</code>, <code>exiftool</code>, <code>steghide</code>, <code>zsteg</code>, <a href="https://dcode.fr">dCode.fr</a>, <a href="https://aperisolve.com">Aperi’Solve</a></li>
 </ul>
-<hr>
 </section>
 <section id="investigation-log-confirmed-findings" class="level2">
 <h2 class="anchored" data-anchor-id="investigation-log-confirmed-findings">4. Investigation Log &amp; Confirmed Findings</h2>
@@ -305,7 +302,6 @@ $ strings -n 8 tftp.pcapng | grep -i "academy"</code></pre></li>
 <li><em>Observation:</em> Standard metadata (<code>exiftool</code>) and <code>strings</code> checks returned no anomalies. Running <code>zsteg -a</code> flagged potential OpenPGP/binary data at the end of <code>picture3.bmp</code>, confirming hidden payload presence.</li>
 </ul></li>
 </ul>
-<hr>
 </section>
 </section>
 <section id="solution-flag-extraction" class="level2">
@@ -324,7 +320,6 @@ $ strings -n 8 tftp.pcapng | grep -i "academy"</code></pre></li>
 <section id="decoded-flag" class="level3">
 <h3 class="anchored" data-anchor-id="decoded-flag">Decoded Flag</h3>
 <pre class="text"><code>academy{REDACTED}</code></pre>
-<hr>
 </section>
 </section>
 <section id="mitre-attck-framework-mapping" class="level2">
@@ -371,7 +366,6 @@ $ strings -n 8 tftp.pcapng | grep -i "academy"</code></pre></li>
 </tr>
 </tbody>
 </table>
-<hr>
 </section>
 <section id="key-takeaways-lessons-learned" class="level2">
 <h2 class="anchored" data-anchor-id="key-takeaways-lessons-learned">7. Key Takeaways &amp; Lessons Learned</h2>
@@ -381,7 +375,6 @@ $ strings -n 8 tftp.pcapng | grep -i "academy"</code></pre></li>
 <li><strong>Read Clues Carefully:</strong> The passphrase was hidden in plain sight inside the decoded <code>plan</code> message rather than requiring brute-force cracking.</li>
 <li><strong>Steganography Tooling:</strong> While <code>zsteg</code> is great for detecting LSB anomalies and appended data in PNG/BMP files, <code>steghide</code> uses a pseudo-random bit-distribution algorithm that requires the matching tool and passphrase for extraction.</li>
 </ul>
-<hr>
 </section>
 <section id="picoctfcylab-forensics-track-record" class="level2">
 <h2 class="anchored" data-anchor-id="picoctfcylab-forensics-track-record">8. picoCTF/CyLab Forensics Track Record</h2>
